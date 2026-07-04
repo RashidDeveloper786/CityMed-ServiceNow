@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Equipment Fault">2e74b5b293350b101aa3f18ddd03d623</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Equipment Faults</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_2057380_cityme_0_equipment_fault</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2057380_cityme_0.equipment_fault_user</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-04 10:34:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c884b5b293350b101aa3f18ddd03d6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment Faults</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sys_app_module_c884b5b293350b101aa3f18ddd03d6f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-04 10:34:28</sys_updated_on>
+        <timeline_page/>
+        <title>Equipment Faults</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
