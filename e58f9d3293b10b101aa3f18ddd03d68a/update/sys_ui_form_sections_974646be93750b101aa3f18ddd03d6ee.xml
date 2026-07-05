@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="974646be93750b101aa3f18ddd03d6ee" sys_domain="global" table="x_2057380_cityme_0_equipment_fault" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 11:52:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf4646be93750b101aa3f18ddd03d6f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2057380_cityme_0_equipment_fault" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">974646be93750b101aa3f18ddd03d6ee</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">714f79fe93350b101aa3f18ddd03d614</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 11:52:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 11:52:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1056463293b50b101aa3f18ddd03d657</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2057380_cityme_0_equipment_fault" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">974646be93750b101aa3f18ddd03d6ee</sys_ui_form>
+            <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 11:52:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 12:12:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46dacef693b50b101aa3f18ddd03d621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2057380_cityme_0_equipment_fault" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">974646be93750b101aa3f18ddd03d6ee</sys_ui_form>
+            <sys_ui_section caption="Assignment" display_value="Assignment" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">e1da4e7693b50b101aa3f18ddd03d640</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 12:12:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 12:13:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec1b463a93b50b101aa3f18ddd03d637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_2057380_cityme_0_equipment_fault" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">974646be93750b101aa3f18ddd03d6ee</sys_ui_form>
+            <sys_ui_section caption="Resolutions" display_value="Resolutions" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">c41b467693b50b101aa3f18ddd03d671</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 12:13:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_2057380_cityme_0_equipment_fault</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-04 11:52:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>974646be93750b101aa3f18ddd03d6ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2057380_cityme_0_equipment_fault</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_974646be93750b101aa3f18ddd03d6ee</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-04 11:52:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

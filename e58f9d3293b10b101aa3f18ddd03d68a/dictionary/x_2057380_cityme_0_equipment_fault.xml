@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="97a131be93f10b101aa3f18ddd03d64d" extends="task" label="Equipment Fault" max_length="40" name="x_2057380_cityme_0_equipment_fault" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="97a131be93f10b101aa3f18ddd03d64d" extends="task" label="Equipment Fault" max_length="40" name="x_2057380_cityme_0_equipment_fault" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>
+        <element label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
+        <element choice="3" label="Ward" max_length="40" name="ward" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ICU" sequence="0" value="icu"/>
+                <element inactive_on_update="false" label="Radiology" sequence="1" value="radiology"/>
+                <element inactive_on_update="false" label="Neonatal ICU" value="neonatal_icu"/>
+                <element inactive_on_update="false" label="Pharmacy" sequence="5" value="pharmacy"/>
+                <element inactive_on_update="false" label="General Ward" sequence="4" value="general_ward"/>
+                <element inactive_on_update="false" label="Emergency" sequence="3" value="emergency"/>
+                <element inactive_on_update="false" label="OT" sequence="2" value="ot"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Resolved At" max_length="40" name="resolved_at" type="glide_date_time"/>
+        <element label="Life Critical Equipmennt" max_length="255" name="life_critical_equipmennt" type="boolean"/>
+        <element label="Fault Detected On" max_length="40" name="fault_detected_on" type="glide_date_time"/>
+        <element label="Equipment ID" mandatory="true" max_length="20" name="equipment_id" type="string"/>
+    </element>
 </database>

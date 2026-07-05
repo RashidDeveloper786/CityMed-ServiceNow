@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c510f987937d4b101aa3f18ddd03d6ed" label="Asset" max_length="40" name="x_2057380_cityme_0_asset" type="collection">
+        <element label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element label="Last Serviced" max_length="40" name="last_serviced" type="glide_date"/>
+        <element choice="3" label="Ward" max_length="40" name="ward" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Orthopedics" value="Orthopedics"/>
+                <element inactive_on_update="false" label="Pediatrics" value="Pediatrics"/>
+                <element inactive_on_update="false" label="Cardiology" value="Cardiology"/>
+                <element inactive_on_update="false" label="ICU" value="ICU"/>
+                <element inactive_on_update="false" label="General Ward" value="General Ward"/>
+                <element inactive_on_update="false" label="Maternity" sequence="0" value="Maternity"/>
+                <element inactive_on_update="false" label="Radiology" value="Radiology"/>
+                <element inactive_on_update="false" label="Nephrology" sequence="0" value="Nephrology"/>
+                <element inactive_on_update="false" label="Operation Theatre" value="Operation Theatre"/>
+                <element inactive_on_update="false" label="Emergency" value="Emergency"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Equipment ID" max_length="40" name="equipment_id" type="string"/>
+        <element label="Equipment Name" max_length="40" name="equipment_name" type="string"/>
+        <element label="Life Critical" max_length="40" name="life_critical" type="boolean"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6856fd8393bd4b101aa3f18ddd03d693" extends="sys_import_set_row" label="Equipment Asset Import" max_length="40" name="x_2057380_cityme_0_equipment_asset_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Serviced" label="Last Serviced" max_length="40" name="u_last_serviced" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Equipment Name" label="Equipment Name" max_length="40" name="u_equipment_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Equipment ID" label="Equipment ID" max_length="40" name="u_equipment_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ward" label="Ward" max_length="40" name="u_ward" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Life Critical" label="Life Critical" max_length="40" name="u_life_critical" type="string"/>
+    </element>
+</database>
