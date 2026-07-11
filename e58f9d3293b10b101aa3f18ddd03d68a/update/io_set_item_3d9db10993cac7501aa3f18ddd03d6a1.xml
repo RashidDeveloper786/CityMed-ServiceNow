@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="New Laptop Request">e90a618d930ac7501aa3f18ddd03d6fc</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 11:00:30</sys_created_on>
+        <sys_id>3d9db10993cac7501aa3f18ddd03d6a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CityMed Requester Info.New Laptop Request</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>io_set_item_3d9db10993cac7501aa3f18ddd03d6a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 11:00:34</sys_updated_on>
+        <variable_set display_value="CityMed Requester Info">f52a7d4193cac7501aa3f18ddd03d62d</variable_set>
+    </io_set_item>
+</record_update>

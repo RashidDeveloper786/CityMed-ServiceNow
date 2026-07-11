@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Request Hardware">d5fcddc593c6c7501aa3f18ddd03d655</sc_cat_item>
+        <sc_category display_value="Hardware Requests">7fa2c5099306c7501aa3f18ddd03d690</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 08:39:59</sys_created_on>
+        <sys_id>676d5d0993c6c7501aa3f18ddd03d6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware Requests.Request Hardware</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sc_cat_item_category_676d5d0993c6c7501aa3f18ddd03d6d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 08:39:59</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</application>
+        <file_path/>
+        <instance_id>5938182a3b18cb54986d048aa4e45a90</instance_id>
+        <instance_name>dev385960</instance_name>
+        <name>sc_cat_item_category_676d5d0993c6c7501aa3f18ddd03d6d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Hardware">d5fcddc593c6c7501aa3f18ddd03d655</sc_cat_item><sc_category display_value="Hardware Requests">7fa2c5099306c7501aa3f18ddd03d690</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-11 08:39:59</sys_created_on><sys_id>676d5d0993c6c7501aa3f18ddd03d6d9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware Requests.Request Hardware</sys_name><sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package><sys_policy/><sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope><sys_update_name>sc_cat_item_category_676d5d0993c6c7501aa3f18ddd03d6d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-11 08:39:59</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1800929011</payload_hash>
+        <record_name>Hardware Requests.Request Hardware</record_name>
+        <reverted_from/>
+        <source>34614ef693750b101aa3f18ddd03d621</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 08:40:00</sys_created_on>
+        <sys_id>3b6d5d0993c6c7501aa3f18ddd03d6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f5055615e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 08:40:00</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>a76d5d094cc6c750c12f5132c7a15ede</update_guid>
+        <update_guid_history>a76d5d094cc6c750c12f5132c7a15ede:1800929011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware Requests.Request Hardware">3290a5cd93c6c7501aa3f18ddd03d6c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 08:53:53</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>673892fec76d41f890ef4232aa8fdf41</sys_id>
+        <sys_metadata>676d5d0993c6c7501aa3f18ddd03d6d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware Requests.Request Hardware</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_scope_delete display_value="">51d0471f1eb04a00a890bb213e85c400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_676d5d0993c6c7501aa3f18ddd03d6d9</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_676d5d0993c6c7501aa3f18ddd03d6d9">3b6d5d0993c6c7501aa3f18ddd03d6df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 08:53:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

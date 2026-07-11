@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Department">468af5c193cac7501aa3f18ddd03d661</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 10:49:28</sys_created_on>
+        <sys_id>d10b718193cac7501aa3f18ddd03d622</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Nursing</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>question_choice_d10b718193cac7501aa3f18ddd03d622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 10:49:43</sys_updated_on>
+        <text>Nursing</text>
+        <value>nursing</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d10b718193cac7501aa3f18ddd03d622"/>
+</record_update>

@@ -20,25 +20,6 @@
             <element>ward</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Neonatal ICU</label>
-            <language>en</language>
-            <name>x_2057380_cityme_0_equipment_fault</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 11:53:22</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 11:56:09</sys_updated_on>
-            <value>neonatal_icu</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>ward</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>ICU</label>
             <language>en</language>
             <name>x_2057380_cityme_0_equipment_fault</name>
@@ -52,6 +33,25 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-07-04 11:31:29</sys_updated_on>
             <value>icu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ward</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laboratory</label>
+            <language>en</language>
+            <name>x_2057380_cityme_0_equipment_fault</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-08 10:35:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-08 10:35:27</sys_updated_on>
+            <value>Laboratory</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>

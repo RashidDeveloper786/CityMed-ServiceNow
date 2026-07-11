@@ -4,13 +4,13 @@
             <element>equipment_id</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 08:41:39</sys_created_on>
-            <sys_id>d944ea0793f18b101aa3f18ddd03d661</sys_id>
+            <sys_created_on>2026-07-11 12:11:58</sys_created_on>
+            <sys_id>78fd0e49934ec7501aa3f18ddd03d6e5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 08:41:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 12:11:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>ward</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 08:41:39</sys_created_on>
-            <sys_id>ed44ea0793f18b101aa3f18ddd03d662</sys_id>
+            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
+            <sys_id>f4fd0e49934ec7501aa3f18ddd03d6e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 08:41:39</sys_updated_on>
+            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,41 @@
             <element>life_critical_equipmennt</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 08:41:40</sys_created_on>
-            <sys_id>a944ea0793f18b101aa3f18ddd03d663</sys_id>
+            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
+            <sys_id>74fd0e49934ec7501aa3f18ddd03d6e7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 08:41:40</sys_updated_on>
+            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fault_description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
+            <sys_id>f0fd0e49934ec7501aa3f18ddd03d6e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>fault_detected_on</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-05 08:41:40</sys_created_on>
-            <sys_id>6544ea0793f18b101aa3f18ddd03d664</sys_id>
+            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
+            <sys_id>41fd0e49934ec7501aa3f18ddd03d6e9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-05 08:41:40</sys_updated_on>
+            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

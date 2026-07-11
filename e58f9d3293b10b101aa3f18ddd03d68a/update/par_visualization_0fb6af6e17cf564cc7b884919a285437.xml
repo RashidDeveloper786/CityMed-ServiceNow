@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Pie">96abe7e38d8790718022c5630a92176c</macroponent>
+        <name>Open Equipment Faults by Priority</name>
+        <properties>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"default"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataPassthrough":null,"dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV4XzIwNTczODBfY2l0eW1lXzBfZXF1aXBtZW50X2ZhdWx0MTc4Mzc0NzQ2NzY0NTc5MTI5MjcyLjk4MjA4OTU=","reportSourceSysId":null,"isDatabaseView":false,"label":null,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_2057380_cityme_0_equipment_fault"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzIwNTczODBfY2l0eW1lXzBfZXF1aXBtZW50X2ZhdWx0MTc4Mzc0NzQ2NzY0NTc5MTI5MjcyLjk4MjA4OTU=","groupByField":"active","isChoice":false,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"Open Equipment Faults by Priority","headerTitleAlignment":null,"titleColor":{"value":null},"showHeader":true,"headerColor":{"value":null},"showBorder":true,"hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzIwNTczODBfY2l0eW1lXzBfZXF1aXBtZW50X2ZhdWx0MTc4Mzc0NzQ2NzY0NTc5MTI5MjcyLjk4MjA4OTU=","id":"ZEdGaWJHVjRYekl3TlRjek9EQmZZMmwwZVcxbFh6QmZaWEYxYVhCdFpXNTBYMlpoZFd4ME1UYzRNemMwTnpRMk56WTBOVGM1TVRJNU1qY3lMams0TWpBNE9UVT0xNzgzNzQ3NDY3NzE2MzQ4NDc3NDUuNTU2MTA5ODk=","numberFormat":{"customFormat":true,"rounding":"HALF_UP","decimalPrecision":0,"abbreviationEnabled":false,"numberInTooltipsEnabled":true,"thousandSeparatorEnabled":true}}],"newReporting":false,"numberOfPeriods":2,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","scoreType":null,"showAbsolutePeriod":false,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":false,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","trendBy":null,"truncationType":"start","wrapTitle":true,"showDataTable":false,"description":null,"showAdditionalGroupBySelector":true,"additionalGroupByConfig":[{"id":"active"},{"id":"priority"}]}</properties>
+        <requested_by/>
+        <required_translations/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 11:31:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0fb6af6e17cf564cc7b884919a285437</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Open Equipment Faults by Priority</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>par_visualization_0fb6af6e17cf564cc7b884919a285437</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 05:24:52</sys_updated_on>
+        <type>pie</type>
+    </par_visualization>
+</record_update>

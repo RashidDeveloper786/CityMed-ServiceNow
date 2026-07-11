@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f77e5680938e03501aa3f18ddd03d60e" extends="sys_import_set_row" label="Fualt Import Set Table 2" max_length="40" name="x_2057380_cityme_0_fualt_import_set_table_2" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=State" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Life Critical Equipment" label="Life Critical Equipment" max_length="40" name="u_life_critical_equipment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fault Detected On" label="Fault Detected On" max_length="40" name="u_fault_detected_on" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority" label="Priority" max_length="40" name="u_priority" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reported By" label="Reported By" max_length="40" name="u_reported_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ward" label="Ward" max_length="40" name="u_ward" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Equipment ID" label="Equipment ID" max_length="40" name="u_equipment_id" type="string"/>
+    </element>
+</database>

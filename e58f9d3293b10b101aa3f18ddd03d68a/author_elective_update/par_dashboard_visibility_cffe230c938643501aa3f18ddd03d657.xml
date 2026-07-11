@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="DELETE">
+        <dashboard display_value="CityMed IT Operations">3dfeabc8938643501aa3f18ddd03d6a6</dashboard>
+        <experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 16:42:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cffe230c938643501aa3f18ddd03d657</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>par_dashboard_visibility_cffe230c938643501aa3f18ddd03d657</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 16:42:00</sys_updated_on>
+    </par_dashboard_visibility>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</application>
+        <file_path/>
+        <instance_id>5938182a3b18cb54986d048aa4e45a90</instance_id>
+        <instance_name>dev385960</instance_name>
+        <name>par_dashboard_visibility_cffe230c938643501aa3f18ddd03d657</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility"><par_dashboard_visibility action="INSERT_OR_UPDATE"><dashboard display_value="CityMed IT Operations">3dfeabc8938643501aa3f18ddd03d6a6</dashboard><experience display_value="Platform Analytics">08c73d60537101100834ddeeff7b1287</experience><sys_class_name>par_dashboard_visibility</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-08 16:42:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>cffe230c938643501aa3f18ddd03d657</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package><sys_policy/><sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope><sys_update_name>par_dashboard_visibility_cffe230c938643501aa3f18ddd03d657</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-08 16:42:00</sys_updated_on></par_dashboard_visibility></record_update>]]></payload>
+        <payload_hash>-1244600968</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>34614ef693750b101aa3f18ddd03d621</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 16:42:01</sys_created_on>
+        <sys_id>d3fe230c938643501aa3f18ddd03d699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f429b9a1a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 16:42:01</sys_updated_on>
+        <type>PAR Dashboard Visibility</type>
+        <update_guid>53fe230c628643500c64f6b1ead86b98</update_guid>
+        <update_guid_history>53fe230c628643500c64f6b1ead86b98:-1244600968</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">be1a700993c2c7501aa3f18ddd03d6d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 06:05:40</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_visibility">par_dashboard_visibility</sys_db_object>
+        <sys_id>3448bc8db3c0474f957a952f28bd5571</sys_id>
+        <sys_metadata>cffe230c938643501aa3f18ddd03d657</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_scope_delete display_value="">51d0471f1eb04a00a890bb213e85c400</sys_scope_delete>
+        <sys_update_name>par_dashboard_visibility_cffe230c938643501aa3f18ddd03d657</sys_update_name>
+        <sys_update_version display_value="par_dashboard_visibility_cffe230c938643501aa3f18ddd03d657">d3fe230c938643501aa3f18ddd03d699</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 06:05:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

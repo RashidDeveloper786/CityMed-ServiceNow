@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Department">468af5c193cac7501aa3f18ddd03d661</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 10:49:24</sys_created_on>
+        <sys_id>b9fa79c193cac7501aa3f18ddd03d637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rdiology</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>question_choice_b9fa79c193cac7501aa3f18ddd03d637</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 10:49:24</sys_updated_on>
+        <text>Rdiology</text>
+        <value>radiology</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b9fa79c193cac7501aa3f18ddd03d637"/>
+</record_update>

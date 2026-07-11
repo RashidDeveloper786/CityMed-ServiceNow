@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">eca5dacc930e03501aa3f18ddd03d653</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 10:11:38</sys_created_on>
+        <sys_id>b0a5dacc930e03501aa3f18ddd03d655</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eca5dacc930e03501aa3f18ddd03d653</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sys_report_users_groups_b0a5dacc930e03501aa3f18ddd03d655</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 10:11:38</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</application>
+        <file_path/>
+        <instance_id>5938182a3b18cb54986d048aa4e45a90</instance_id>
+        <instance_name>dev385960</instance_name>
+        <name>sys_report_users_groups_b0a5dacc930e03501aa3f18ddd03d655</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">eca5dacc930e03501aa3f18ddd03d653</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-08 10:11:38</sys_created_on><sys_id>b0a5dacc930e03501aa3f18ddd03d655</sys_id><sys_mod_count>0</sys_mod_count><sys_name>eca5dacc930e03501aa3f18ddd03d653</sys_name><sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package><sys_policy/><sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope><sys_update_name>sys_report_users_groups_b0a5dacc930e03501aa3f18ddd03d655</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-08 10:11:38</sys_updated_on><user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>1851479846</payload_hash>
+        <record_name>eca5dacc930e03501aa3f18ddd03d653</record_name>
+        <reverted_from/>
+        <source>34614ef693750b101aa3f18ddd03d621</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 10:11:39</sys_created_on>
+        <sys_id>c5a51a80934e03501aa3f18ddd03d6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f4136350e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 10:11:39</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>74a51a809c4e0350f3a69e4c32cfbfdf</update_guid>
+        <update_guid_history>74a51a809c4e0350f3a69e4c32cfbfdf:1851479846</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-08 11:12:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>6308e574ca6547b5b7dd855b0572e709</sys_id>
+        <sys_metadata>b0a5dacc930e03501aa3f18ddd03d655</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eca5dacc930e03501aa3f18ddd03d653</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_scope_delete display_value="">51d0471f1eb04a00a890bb213e85c400</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_b0a5dacc930e03501aa3f18ddd03d655</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_b0a5dacc930e03501aa3f18ddd03d655">c5a51a80934e03501aa3f18ddd03d6e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-08 11:12:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
