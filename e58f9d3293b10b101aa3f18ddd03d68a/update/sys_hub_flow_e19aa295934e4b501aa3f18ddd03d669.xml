@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2957000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Auto assign life-critical equipment faults</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>citymed_equipment_fault__auto_assign</internal_name>
+        <label_cache>[{"name":"Created_1.current.life_critical_equipmennt","label":"Trigger - Record Created➛Equipment Fault Record➛Life Critical Equipmennt","reference":"","reference_display":"Life Critical Equipmennt","type":"boolean","base_type":"boolean","parent_table_name":"x_2057380_cityme_0_equipment_fault","column_name":"life_critical_equipmennt","choices":null,"usedInstances":{"655b1eda-16a2-4f87-8141-38ac10625799":["condition"]},"attributes":null},{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛Equipment Fault Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_2057380_cityme_0_equipment_fault","column_name":"assignment_group","choices":null,"usedInstances":{"10728cf5-b570-44a8-b9dd-f937412366f6":["record"]},"attributes":null},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Equipment Fault Table","reference":"x_2057380_cityme_0_equipment_fault","reference_display":"Equipment Fault","type":"table_name","base_type":"table_name","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Equipment Fault Record","reference":"x_2057380_cityme_0_equipment_fault","reference_display":"Equipment Fault","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{"bdf57b5b-8c3d-4e80-9911-5f072fddfa43":["record"],"35723a77-e9aa-4e0b-802d-80058534f878":["record"],"fb877dc0-4461-49ea-b6ec-0b6d094c363b":["record"],"10728cf5-b570-44a8-b9dd-f937412366f6":["record"],"67910079-ed4f-4fe3-87cd-c5b21e891024":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>cbde2e11938e4b501aa3f18ddd03d66a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>CityMed Equipment Fault - Auto Assign</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f106b29d938e4b501aa3f18ddd03d6ca</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:55:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e19aa295934e4b501aa3f18ddd03d669</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>CityMed Equipment Fault - Auto Assign</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sys_hub_flow_e19aa295934e4b501aa3f18ddd03d669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 10:08:51</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>465bf61993ce4b501aa3f18ddd03d6d6</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_2057380_cityme_0_equipment_fault">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:45:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f106b29d938e4b501aa3f18ddd03d6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:34</sys_updated_on>
+        <table>x_2057380_cityme_0_equipment_fault</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>e19aa295934e4b501aa3f18ddd03d669</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:45:34</sys_created_on>
+        <sys_id>fd06b29d938e4b501aa3f18ddd03d6ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:34</sys_updated_on>
+        <trigger display_value="">f106b29d938e4b501aa3f18ddd03d6ca</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e19aa295934e4b501aa3f18ddd03d669^sys_idNOT INfd06b29d938e4b501aa3f18ddd03d6ca"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e19aa295934e4b501aa3f18ddd03d669^sys_idNOT INbd9a6259934e4b501aa3f18ddd03d6a7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e19aa295934e4b501aa3f18ddd03d669</id>
+        <name>CityMed Equipment Fault - Auto Assign</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:55:36</sys_created_on>
+        <sys_id>bd9a6259934e4b501aa3f18ddd03d6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 08:55:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bd9a6259934e4b501aa3f18ddd03d6a7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e19aa295934e4b501aa3f18ddd03d669^sys_idNOT IN7eca6659934e4b501aa3f18ddd03d610,85da6a59934e4b501aa3f18ddd03d68b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</model>
+        <model_id>e19aa295934e4b501aa3f18ddd03d669</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e19aa295934e4b501aa3f18ddd03d669</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:56:29</sys_created_on>
+        <sys_id>7eca6659934e4b501aa3f18ddd03d610</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:13:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7eca6659934e4b501aa3f18ddd03d610"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</model>
+        <model_id>e19aa295934e4b501aa3f18ddd03d669</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e19aa295934e4b501aa3f18ddd03d669</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:56:37</sys_created_on>
+        <sys_id>85da6a59934e4b501aa3f18ddd03d68b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:13:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=85da6a59934e4b501aa3f18ddd03d68b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=e19aa295934e4b501aa3f18ddd03d669^sys_idNOT INd86baa99934e4b501aa3f18ddd03d60b"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:59:02</sys_created_on>
+        <sys_id>d86baa99934e4b501aa3f18ddd03d60b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:30:16</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeAFdLFjO2/bxEEDbDeo420fglSgRNImSlFeiVLWXeTfO9TFlnVx7EjZdV4MiKTIM0dnzgz98F3nyCVcv9QXyOVEH+hMSBIKxBebNYFhqYYdgXw15yOBkQzCjX4pw5gMdBoG/oL4a44kLKaIRzAYhJiE+qU50BPEY3K/iW4x7ATvp9vke+r5NDx/cyxjNLYnhuMxufGJYzjka8zWPhHSoSjmEhZjFsExm7/yd2bFAu0mX+CtGMchEfrlw+NAX6MQDpMKyPfKFFNoPOqhqUUMzzZtyzIMazI03QvbNS1sI2IYsGGVmQp62UDQLnTyTRKBCd6yUuMuJAjfCb7ZrlgB9RlPPvoWsf9g94mh1lEC2D2SzW0fnZyRbNhbBcwjd2vJApGNZDizyYDHvvic4VdckpTVgksYiSPYj6wVZAUiR0TvV8HTvDjwhok0unySBx7i2yckZcjcWJJIEU4ZB+qdjJsoiMMU/Xx2dTe/dv7+uLj6fTZ35rP7xfz2ajG71p/TuJyvsdoxQ5hjcbJwnrcCuGGEqw8oYt8FNAM98kK2lh89yZJCg8+Dna6vAoFZykpN214xFe1ru4j+kLgNo1XeXunEQuL/zP6sazgbPE23FxcIYYJadOvSkm7LkTdAkw0klKM7pOB85BgJDw3jJ4k4t6jXatgPMOHXu+10mFwuQdVMrGOp2HpCQkaODByEsVPiUS0FTC+JOovt+UUFh7GAF5zt96jrOKVty98nFgHcB8jCe7DRjPQPYEm0oCo9AZbTT/kJ81hoAXxH+NG8OAyVrRY2R299tMwJhg058WRJE/RLVH76g0URE8tSEG0YUoZqELang9S0IuAMStQRy2OfKV7/JEmF20qqn5znpkmpS6hljFWWm4btUtMYGyNEsW0YnlXK8zqYVpSyIpg3yffTsj1KpcqPUGKV4hy8Uc6Vo2SU7GuwIEFJJDeVq36gmT1BsxS0ijnaJ7njVpbZ8PW+Og+F1nNngHCC4A18rEke6Y+UB09gzN290UXev8swiAWuupM6QmNC263Qfsnp/PXtfJIGITmMZ3/FOTnk7qMUskZi04M32tR0p2RIDLBEG9zQHU2nrocsSscXY2KZFW/cwWjE9i488QXxJU3qbfPHRuEkTXo7wRk7AKy55MkAu/tjLsxGd8zm3ocPPq2IcABq6HDldDU7XHKGSTHXb7bXjk52+d014+lk6o3M8dgbw40HMp4OiYvMoTVC0/GFPRlVMr4G5RBM2cDMD7kHRZsoBdLiBl+yqfO62L+lbCMipSpHnWu4gKY33QJlZ5YKp/pKWuoxQah9DsSH29067Z5APUzvxm9UzI8BpT679kNRuYFc1ZoLQPIbjO8hUS1rC2dndzurKCrZj7Xz7YwMJ6MptZv9iE6b/GgHph3m2fciR+ZP0pqJTU3JsfpPGtOotYt4hYQrMim3Fwf6n75IMXsnxXo7UuzOPVeRi61X0teAfUf1Lm1Ceix6CgJxAlr28utAgwkNztQY1fJ/MAnW3I0mVwQY5tBrw/maAtPVxA/UmDqyrb5/Kq6st6+VPhjW8tbs/KpaRTf93q0JHqPRyG7ptKfVu3UToBfwnn2NOzlnkqYUPFjoTtu3umdjqStJdl8RRxaxXqNurmTdom6sZS9F3b1KHfpnoAHFmdafx/8Bs4ZNAuofAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=e19aa295934e4b501aa3f18ddd03d669^sys_idNOT IN19087e5193ce4b501aa3f18ddd03d676,6564fe99938e4b501aa3f18ddd03d636,9385365d938e4b501aa3f18ddd03d618"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>655b1eda-16a2-4f87-8141-38ac10625799</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:54:16</sys_created_on>
+        <sys_id>19087e5193ce4b501aa3f18ddd03d676</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 10:08:41</sys_updated_on>
+        <ui_id>fb877dc0-4461-49ea-b6ec-0b6d094c363b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9WVTU/jMBCG/0rlc1PFSdOkvaGySEh8SAu7F4Qsxx5TS84HjgN0K/772klamha6gOCwx0xmPDPvzGPfrJDkaIbGOOF8KrAvMMY+9iMc4AQSSFk8iSFM0BDlNAPrmRdGCsmokUVurQ9U1c4MY5aEE46nIYNxGvmY0lC4Q7kf8klErSuXVano8ncXMZdmeQ584A3OpIDBXEtjj1WDE1orMzhSoI0NYgupuIYczW5uh6ik2lZhQKPZaufXe9tQNAVlXS/6fbzenVmWzqpBgE3EoDOddWf83LIXmruywiGCJwM5B1uPoKqCIcpozqkp9BLNjK6tQQPll7labjwWMjf2POR8nyr5xyYNg+FW3hmqlhU8QG4IZFQqQllX4saHdPru9yaOqaFXNjUztYY2D1sUkkHVasdBONHn27bW4bJszmhCDE3VoUpYoeosv2iFpEIAM8CJkKA4KXLSxKBNsvUaWEtd2eKhdKI5GVqNxNWieNwIfCLzRt5OL1XYTdl8iSugmi1OXCY3Q1fBEFFjtExr4xpa9Qc7Qy6Hyyyv3xgnKMhcjxktS5nfkVIXD7IpwfaZje6U/RgJVTzayit5l49aGUZ20HR0Yu3Hjfk31dLJdm6PscHrjDs7VYEhnSzEHUBEoTPqNqLpsAn7lcv7Gk6bLZ9iiMMg8aaTgHljCCMv5WHoYZwyAAoi4Bg9D92g5opWVTeSdlnIfe2kQ80kOs1Jq4krlDTquWCmZWmObFcP0Cn9PFzfFvwQZsHWbaGBWTC27onVam633y0GHrFaWwXM8/P+5fBx8v9dktqMuatpt8aOdl6wupm95Du8H3d/BqfHL8Tjw8R3ls8g/wbdX0/0LrzfQmmfxz55fWG/nb3+hHtscezH4dRnXhxEoTf2GfXShKceTQMRjceTZJJ+L1vJ4ScseNnbrTNf+HoigR/FYeITZt/XDIhP4L6WZdNuM9J92H6sHdq398PsvaPkNXvXzca93kKH357tbDt2cNH+6OALPghfu7WvsJf4/xF7m3fvS+Dr6frt7PXG20OPpWkqUph69hmzz1oMiZcENPYg8lkogtD3Y/EJ9N4C7vYvpK8qIvwKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19087e5193ce4b501aa3f18ddd03d676"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>b65d59cb-1e5c-4847-afa3-d6e43525f520</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:38:26</sys_created_on>
+        <sys_id>6564fe99938e4b501aa3f18ddd03d636</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:54:00</sys_updated_on>
+        <ui_id>67910079-ed4f-4fe3-87cd-c5b21e891024</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Wfo8pOSlf6huiqTWIgwcQLRZFj3xRrzgeODXRV//tuHKetALEi8TC0vPl+OOcc32PfrImSZEpGICk7ZmORsCSJKY0nI5aNk4zFMuEAjESk5AVgpQFRGYnrB65dG1ivTw1wCzJlQ+GMgdJuNpiXqqk1X12HMoyIO6Ul5sn05jYiNTe4owVDputnqUMhaZ6BxtLLHtNzjHZVt2tZCVcgrlT1wbPQOQuZwfcZZrCphcNoRODJQikBgeRcNxCRgpeS28qsyNQahwEkLS9KvdpW3KnSdkQL/tSo3/jnEW3rckBmIoiwXaZBoC6cz7jlV7izsM5s9aqUgKbTRELOnban+7Gu4KK2qiq7Fssz3XdX2hXleacI2W6wdx6uQRBQtzxb5B2t/OquerzsQc5V6SUJFHUluN6uuLVGZc62cNYENHiNC17XqlymtakelG9GKMVwqXExzHX1iP9s1LIcctHiHqKqfDjH+MyHr7lRLYkfuA02byLSrJpTzZtmRwU1TO9di6QjFiikXgUvQeonoW0WRtX2BH/1AAH4JgpDnx29NWHieDdQe3vuBv8pjenRl2RCU6HsqoCUpnDvVO1V8Fq/dMHXvmAwDwXvM8UBkHtT/PSj8DqF4IsXsbP93sF5lwiuOPowV0w+kysCjU9vi7+ZgcZvXrd7k+Tnv9kzAoJAhJ7l0lSuXjhKE7le9MO/INMFOWODb6DrAdL5tSDRouv2KTYZ5YmcJMdJLkcZo4zzJGcTKSVuM45jX4508fo+sP6V9+ffBPk+9x9wRr375wq0bF45tN76UCBrC2l3iM/sH5KD65DcPowfdgewMfXfJ7oJ/pv38fYPZe8/FRYKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6564fe99938e4b501aa3f18ddd03d636"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>655b1eda-16a2-4f87-8141-38ac10625799</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:43:29</sys_created_on>
+        <sys_id>9385365d938e4b501aa3f18ddd03d618</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:46:21</sys_updated_on>
+        <ui_id>bdf57b5b-8c3d-4e80-9911-5f072fddfa43</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTU/jMBD9K5XPUWU3bbf0tqJbCYkFCVZcKBs59qRYcj5wbKBb9b/vxHHaiiK2SFyqzc3z5feeZyb3a6IkmZIhSMrO2FjELI4HlA4mQ5aO45QNZMwBGIlIwXPASAOiNBLPz1y7xrBenxvgFmTC+sIZA4XdbNAvVV1pvroLYWgRj0pL9JPp/UNEKm6wogVDpus3rmMhaZ6CxtCbDtNbjHZVNWdZCpcjrkR1xsuQOQue3sUMPZjUwGE0IvBqoZCAQDKua4hIzgvJbWlWZGqNQwOSlteFXm0jHlVhW6I5f63VH7x5SJu4DJCZCCJsj0kQqDVnM275LVYW1pmtXqUSULeaSMi40/Z839YGXFdWlUWbYnmqu+xSu7y4ahUh2wJ77+FqBAFVw7NB3tLKbh/Ll5sO5FwVXpJAUZeC6+2JW2tU6mwDZ01Ag9c451WlimVSmfJZ+WSEkveXGg/9TJcveGetlkWfiwZ3H1Xl/TnaZ958x41qSPzEMpi8iUi9qs81r+sdFdQweXINkpZYoJB4FbwEie+EJlkYVdnveNUzBOCbKDR9Ovqow8TZrqH2au4a/zUZ0NG3eEIToewqh4Qm8ORU5VXwWh9OwY8uoDcPAZ8biiMgd0Pxy7fC+xTCXBzYLvdze1etI0zF6MumYnJKUxFonPxY/GsY6ODDdbvXSb7/671BQBCI0LNcmtJVC0dpLNeLrvkXZLogl4PeRZEZXnevuSDRoi3h/QIgy6SIz+JMDlNGGedxxiZSSqw1Hgofjpxxhx8Zv/ldGVUanM0WEDscxxNC/rk9ccRrdntirkDL+p3n7ZYE5CiFhaR97jeLIjh7d8G5/YV+2bZgY+q/E9oZ/82f9OEvxS3d40AKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9385365d938e4b501aa3f18ddd03d618"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=e19aa295934e4b501aa3f18ddd03d669^sys_idNOT IN47ebe2d9934e4b501aa3f18ddd03d679,4e54f659938e4b501aa3f18ddd03d6c8"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6fceaa11938e4b501aa3f18ddd03d680</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:01:25</sys_created_on>
+        <sys_id>47ebe2d9934e4b501aa3f18ddd03d679</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 10:05:50</sys_updated_on>
+        <ui_id>655b1eda-16a2-4f87-8141-38ac10625799</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWveSkph0K2wlr5sxVxLciMmS64+kmYm/31XluOENmMr3ePerCPdq3OO7sE90d513tk7fWGteFRk8e0hIUIFDL97oqDlZEGoVkw4oVU1AAlZg/RhAz+ZsJ2E7f0BoSshmeFjtw4M1jhuyKJ/sSUYFjQZNPk5zWlZzMsiy4qPZ3k9L+u8YCVwKLGhhJpLPLrc0/hwPSDJb/m5bRdw64xQj+P6euxyuwe1YYFVniWEPzuuGEc+DUjLE9KCYuC02U6I4cBulDwAK6FcFNzCsxU/8cJiNgsHG44S6ejGtKxGpyLcXIIDpOKp82YyTgvKbTSH8Qa8dMtjLB646YLUWOKglvtqLX2rvkRHyNTg6GG8RRK8C0oD9VFHc7vSm697lldCDa6Mm1JTkNMKHHpXexf49IRL3mKjqoWuQ0erzui1GIqRS5s+SlykjdQbvDRMVwo0EE/RWEivEL8c4HswIqj4jG2wONKswQpaDZOI7dAmTnYJsVu7lGDtQSS6Wz35QDFKHsVV0Z9QQo3o3AXevOajjl3yerCPZrrvl/jWjrMqT6k36IpLpWh4hZ2cQDsq/uRFh9KV2+2++ywr2UDwVRbe0eltGTqHWTPLs9npDJ3NT2XoRHreGJziD8EJUv4yN1mW/Q/Ou4MjbBXHfdQ2XP4Pc/MQQhLvnLymwiK1u4B92v83wsYWh0vQY2ijzY8g6oDtfgHQ99ZygQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">31c4fad9938e4b501aa3f18ddd03d6bb</block>
+        <comment/>
+        <connected_to>655b1eda-16a2-4f87-8141-38ac10625799</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:38:12</sys_created_on>
+        <sys_id>4e54f659938e4b501aa3f18ddd03d6c8</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 10:05:51</sys_updated_on>
+        <ui_id>b65d59cb-1e5c-4847-afa3-d6e43525f520</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e19aa295934e4b501aa3f18ddd03d669</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:56:38</sys_created_on>
+        <sys_id>49da6a59934e4b501aa3f18ddd03d6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 08:56:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e19aa295934e4b501aa3f18ddd03d669</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:56:37</sys_created_on>
+        <sys_id>f8da6a59934e4b501aa3f18ddd03d684</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 08:56:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e19aa295934e4b501aa3f18ddd03d669"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Auto assign life-critical equipment faults</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>citymed_equipment_fault__auto_assign</internal_name>
+        <label_cache>[{"name":"Created_1.current.assignment_group","label":"Trigger - Record Created➛Equipment Fault Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_2057380_cityme_0_equipment_fault","column_name":"assignment_group","usedInstances":{"10728cf5-b570-44a8-b9dd-f937412366f6":["record"]}},{"name":"Created_1.current.life_critical_equipmennt","label":"Trigger - Record Created➛Equipment Fault Record➛Life Critical Equipmennt","reference":"","reference_display":"Life Critical Equipmennt","type":"boolean","base_type":"boolean","parent_table_name":"x_2057380_cityme_0_equipment_fault","column_name":"life_critical_equipmennt","usedInstances":{"655b1eda-16a2-4f87-8141-38ac10625799":["condition"]}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Equipment Fault Table","reference":"x_2057380_cityme_0_equipment_fault","reference_display":"Equipment Fault","type":"table_name","base_type":"table_name","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Equipment Fault Record","reference":"x_2057380_cityme_0_equipment_fault","reference_display":"Equipment Fault","type":"reference","base_type":"reference","usedInstances":{"10728cf5-b570-44a8-b9dd-f937412366f6":["record"],"35723a77-e9aa-4e0b-802d-80058534f878":["record"],"67910079-ed4f-4fe3-87cd-c5b21e891024":["record"],"bdf57b5b-8c3d-4e80-9911-5f072fddfa43":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>CityMed Equipment Fault - Auto Assign</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="CityMed Equipment Fault - Auto Assign">e19aa295934e4b501aa3f18ddd03d669</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbde2e11938e4b501aa3f18ddd03d66a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:26</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=cbde2e11938e4b501aa3f18ddd03d66a^sys_idNOT IN0fde2e11938e4b501aa3f18ddd03d66c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>cbde2e11938e4b501aa3f18ddd03d66a</id>
+        <name>CityMed Equipment Fault - Auto Assign</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:15</sys_created_on>
+        <sys_id>0fde2e11938e4b501aa3f18ddd03d66c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:14:15</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0fde2e11938e4b501aa3f18ddd03d66c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=cbde2e11938e4b501aa3f18ddd03d66a^sys_idNOT IN9bde2e11938e4b501aa3f18ddd03d66e,c4ee2e11938e4b501aa3f18ddd03d6a5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CityMed Equipment Fault - Auto Assign">cbde2e11938e4b501aa3f18ddd03d66a</model>
+        <model_id>cbde2e11938e4b501aa3f18ddd03d66a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cbde2e11938e4b501aa3f18ddd03d66a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:16</sys_created_on>
+        <sys_id>9bde2e11938e4b501aa3f18ddd03d66e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9bde2e11938e4b501aa3f18ddd03d66e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="CityMed Equipment Fault - Auto Assign">cbde2e11938e4b501aa3f18ddd03d66a</model>
+        <model_id>cbde2e11938e4b501aa3f18ddd03d66a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_cbde2e11938e4b501aa3f18ddd03d66a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:19</sys_created_on>
+        <sys_id>c4ee2e11938e4b501aa3f18ddd03d6a5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c4ee2e11938e4b501aa3f18ddd03d6a5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=cbde2e11938e4b501aa3f18ddd03d66a^sys_idNOT IN36ee6e11938e4b501aa3f18ddd03d690"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">cbde2e11938e4b501aa3f18ddd03d66a</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:30</sys_created_on>
+        <sys_id>36ee6e11938e4b501aa3f18ddd03d690</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:30:44</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeAFdLFjO2/bxEEDbDeo420fglSgRNImSlFeiVLWXeTfO9TFlnVx7EjZdV4MiKTIM0dnzgz98F3nyCVcv9QXyOVEH+hMSBIKxBebNYFhqYYdgXw15yOBkQzCjX4pw5gMdBoG/oL4a44kLKaIRzAYhJiE+qU50BPEY3K/iW4x7ATvp9vke+r5NDx/cyxjNLYnhuMxufGJYzjka8zWPhHSoSjmEhZjFsExm7/yd2bFAu0mX+CtGMchEfrlw+NAX6MQDpMKyPfKFFNoPOqhqUUMzzZtyzIMazI03QvbNS1sI2IYsGGVmQp62UDQLnTyTRKBCd6yUuMuJAjfCb7ZrlgB9RlPPvoWsf9g94mh1lEC2D2SzW0fnZyRbNhbBcwjd2vJApGNZDizyYDHvvic4VdckpTVgksYiSPYj6wVZAUiR0TvV8HTvDjwhok0unySBx7i2yckZcjcWJJIEU4ZB+qdjJsoiMMU/Xx2dTe/dv7+uLj6fTZ35rP7xfz2ajG71p/TuJyvsdoxQ5hjcbJwnrcCuGGEqw8oYt8FNAM98kK2lh89yZJCg8+Dna6vAoFZykpN214xFe1ru4j+kLgNo1XeXunEQuL/zP6sazgbPE23FxcIYYJadOvSkm7LkTdAkw0klKM7pOB85BgJDw3jJ4k4t6jXatgPMOHXu+10mFwuQdVMrGOp2HpCQkaODByEsVPiUS0FTC+JOovt+UUFh7GAF5zt96jrOKVty98nFgHcB8jCe7DRjPQPYEm0oCo9AZbTT/kJ81hoAXxH+NG8OAyVrRY2R299tMwJhg058WRJE/RLVH76g0URE8tSEG0YUoZqELang9S0IuAMStQRy2OfKV7/JEmF20qqn5znpkmpS6hljFWWm4btUtMYGyNEsW0YnlXK8zqYVpSyIpg3yffTsj1KpcqPUGKV4hy8Uc6Vo2SU7GuwIEFJJDeVq36gmT1BsxS0ijnaJ7njVpbZ8PW+Og+F1nNngHCC4A18rEke6Y+UB09gzN290UXev8swiAWuupM6QmNC263Qfsnp/PXtfJIGITmMZ3/FOTnk7qMUskZi04M32tR0p2RIDLBEG9zQHU2nrocsSscXY2KZFW/cwWjE9i488QXxJU3qbfPHRuEkTXo7wRk7AKy55MkAu/tjLsxGd8zm3ocPPq2IcABq6HDldDU7XHKGSTHXb7bXjk52+d014+lk6o3M8dgbw40HMp4OiYvMoTVC0/GFPRlVMr4G5RBM2cDMD7kHRZsoBdLiBl+yqfO62L+lbCMipSpHnWu4gKY33QJlZ5YKp/pKWuoxQah9DsSH29067Z5APUzvxm9UzI8BpT679kNRuYFc1ZoLQPIbjO8hUS1rC2dndzurKCrZj7Xz7YwMJ6MptZv9iE6b/GgHph3m2fciR+ZP0pqJTU3JsfpPGtOotYt4hYQrMim3Fwf6n75IMXsnxXo7UuzOPVeRi61X0teAfUf1Lm1Ceix6CgJxAlr28utAgwkNztQY1fJ/MAnW3I0mVwQY5tBrw/maAtPVxA/UmDqyrb5/Kq6st6+VPhjW8tbs/KpaRTf93q0JHqPRyG7ptKfVu3UToBfwnn2NOzlnkqYUPFjoTtu3umdjqStJdl8RRxaxXqNurmTdom6sZS9F3b1KHfpnoAHFmdafx/8Bs4ZNAuofAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=cbde2e11938e4b501aa3f18ddd03d66a^sys_idNOT IN4df5329d938e4b501aa3f18ddd03d663,97d4bed9938e4b501aa3f18ddd03d6be"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">cbde2e11938e4b501aa3f18ddd03d66a</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>655b1eda-16a2-4f87-8141-38ac10625799</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:45:14</sys_created_on>
+        <sys_id>4df5329d938e4b501aa3f18ddd03d663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:14</sys_updated_on>
+        <ui_id>bdf57b5b-8c3d-4e80-9911-5f072fddfa43</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTU/jMBD9K5XPUWU3bbf0tqJbCYkFCVZcKBs59qRYcj5wbKBb9b/vxHHaiiK2SFyqzc3z5feeZyb3a6IkmZIhSMrO2FjELI4HlA4mQ5aO45QNZMwBGIlIwXPASAOiNBLPz1y7xrBenxvgFmTC+sIZA4XdbNAvVV1pvroLYWgRj0pL9JPp/UNEKm6wogVDpus3rmMhaZ6CxtCbDtNbjHZVNWdZCpcjrkR1xsuQOQue3sUMPZjUwGE0IvBqoZCAQDKua4hIzgvJbWlWZGqNQwOSlteFXm0jHlVhW6I5f63VH7x5SJu4DJCZCCJsj0kQqDVnM275LVYW1pmtXqUSULeaSMi40/Z839YGXFdWlUWbYnmqu+xSu7y4ahUh2wJ77+FqBAFVw7NB3tLKbh/Ll5sO5FwVXpJAUZeC6+2JW2tU6mwDZ01Ag9c451WlimVSmfJZ+WSEkveXGg/9TJcveGetlkWfiwZ3H1Xl/TnaZ958x41qSPzEMpi8iUi9qs81r+sdFdQweXINkpZYoJB4FbwEie+EJlkYVdnveNUzBOCbKDR9Ovqow8TZrqH2au4a/zUZ0NG3eEIToewqh4Qm8ORU5VXwWh9OwY8uoDcPAZ8biiMgd0Pxy7fC+xTCXBzYLvdze1etI0zF6MumYnJKUxFonPxY/GsY6ODDdbvXSb7/671BQBCI0LNcmtJVC0dpLNeLrvkXZLogl4PeRZEZXnevuSDRoi3h/QIgy6SIz+JMDlNGGedxxiZSSqw1Hgofjpxxhx8Zv/ldGVUanM0WEDscxxNC/rk9ccRrdntirkDL+p3n7ZYE5CiFhaR97jeLIjh7d8G5/YV+2bZgY+q/E9oZ/82f9OEvxS3d40AKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4df5329d938e4b501aa3f18ddd03d663"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">cbde2e11938e4b501aa3f18ddd03d66a</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>b65d59cb-1e5c-4847-afa3-d6e43525f520</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:40:28</sys_created_on>
+        <sys_id>97d4bed9938e4b501aa3f18ddd03d6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:40:28</sys_updated_on>
+        <ui_id>67910079-ed4f-4fe3-87cd-c5b21e891024</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU/bMBT9K5Wfo8pOSlf6huiqTWIgwcQLRZFj3xRrzgeODXRV//tuHKetALEi8TC0vPl+OOcc32PfrImSZEpGICk7ZmORsCSJKY0nI5aNk4zFMuEAjESk5AVgpQFRGYnrB65dG1ivTw1wCzJlQ+GMgdJuNpiXqqk1X12HMoyIO6Ul5sn05jYiNTe4owVDputnqUMhaZ6BxtLLHtNzjHZVt2tZCVcgrlT1wbPQOQuZwfcZZrCphcNoRODJQikBgeRcNxCRgpeS28qsyNQahwEkLS9KvdpW3KnSdkQL/tSo3/jnEW3rckBmIoiwXaZBoC6cz7jlV7izsM5s9aqUgKbTRELOnban+7Gu4KK2qiq7Fssz3XdX2hXleacI2W6wdx6uQRBQtzxb5B2t/OquerzsQc5V6SUJFHUluN6uuLVGZc62cNYENHiNC17XqlymtakelG9GKMVwqXExzHX1iP9s1LIcctHiHqKqfDjH+MyHr7lRLYkfuA02byLSrJpTzZtmRwU1TO9di6QjFiikXgUvQeonoW0WRtX2BH/1AAH4JgpDnx29NWHieDdQe3vuBv8pjenRl2RCU6HsqoCUpnDvVO1V8Fq/dMHXvmAwDwXvM8UBkHtT/PSj8DqF4IsXsbP93sF5lwiuOPowV0w+kysCjU9vi7+ZgcZvXrd7k+Tnv9kzAoJAhJ7l0lSuXjhKE7le9MO/INMFOWODb6DrAdL5tSDRouv2KTYZ5YmcJMdJLkcZo4zzJGcTKSVuM45jX4508fo+sP6V9+ffBPk+9x9wRr375wq0bF45tN76UCBrC2l3iM/sH5KD65DcPowfdgewMfXfJ7oJ/pv38fYPZe8/FRYKAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=97d4bed9938e4b501aa3f18ddd03d6be"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=cbde2e11938e4b501aa3f18ddd03d66a^sys_idNOT IN29ee6e11938e4b501aa3f18ddd03d68b,67d4fed9938e4b501aa3f18ddd03d626"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6fceaa11938e4b501aa3f18ddd03d680</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">cbde2e11938e4b501aa3f18ddd03d66a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:25</sys_created_on>
+        <sys_id>29ee6e11938e4b501aa3f18ddd03d68b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:24</sys_updated_on>
+        <ui_id>655b1eda-16a2-4f87-8141-38ac10625799</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0PPxvijCWveSkph0K2wlr5sxVxLciMmS64+kmYm/31XluOENmMr3ePerCPdq3OO7sE90d513tk7fWGteFRk8e0hIUIFDL97oqDlZEGoVkw4oVU1AAlZg/RhAz+ZsJ2E7f0BoSshmeFjtw4M1jhuyKJ/sSUYFjQZNPk5zWlZzMsiy4qPZ3k9L+u8YCVwKLGhhJpLPLrc0/hwPSDJb/m5bRdw64xQj+P6euxyuwe1YYFVniWEPzuuGEc+DUjLE9KCYuC02U6I4cBulDwAK6FcFNzCsxU/8cJiNgsHG44S6ejGtKxGpyLcXIIDpOKp82YyTgvKbTSH8Qa8dMtjLB646YLUWOKglvtqLX2rvkRHyNTg6GG8RRK8C0oD9VFHc7vSm697lldCDa6Mm1JTkNMKHHpXexf49IRL3mKjqoWuQ0erzui1GIqRS5s+SlykjdQbvDRMVwo0EE/RWEivEL8c4HswIqj4jG2wONKswQpaDZOI7dAmTnYJsVu7lGDtQSS6Wz35QDFKHsVV0Z9QQo3o3AXevOajjl3yerCPZrrvl/jWjrMqT6k36IpLpWh4hZ2cQDsq/uRFh9KV2+2++ywr2UDwVRbe0eltGTqHWTPLs9npDJ3NT2XoRHreGJziD8EJUv4yN1mW/Q/Ou4MjbBXHfdQ2XP4Pc/MQQhLvnLymwiK1u4B92v83wsYWh0vQY2ijzY8g6oDtfgHQ99ZygQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">31c4fad9938e4b501aa3f18ddd03d6bb</block>
+        <comment/>
+        <connected_to>655b1eda-16a2-4f87-8141-38ac10625799</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="CityMed Equipment Fault - Auto Assign">cbde2e11938e4b501aa3f18ddd03d66a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:40:30</sys_created_on>
+        <sys_id>67d4fed9938e4b501aa3f18ddd03d626</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:25</sys_updated_on>
+        <ui_id>b65d59cb-1e5c-4847-afa3-d6e43525f520</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cbde2e11938e4b501aa3f18ddd03d66a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:18</sys_created_on>
+        <sys_id>40ee2e11938e4b501aa3f18ddd03d6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:14:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_cbde2e11938e4b501aa3f18ddd03d66a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:21</sys_created_on>
+        <sys_id>ecee6e11938e4b501aa3f18ddd03d60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:14:21</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_cbde2e11938e4b501aa3f18ddd03d66a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e19aa295934e4b501aa3f18ddd03d669</sys_id>
+        <latest_snapshot>cbde2e11938e4b501aa3f18ddd03d66a</latest_snapshot>
+        <compiler_build>glide-australia-02-11-2026__patch1-03-23-2026_03-31-2026_1137.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e19aa295934e4b501aa3f18ddd03d669^sys_idNOT INa0feee11938e4b501aa3f18ddd03d624"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"a0feee11938e4b501aa3f18ddd03d624","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
+        <plan_id>e19aa295934e4b501aa3f18ddd03d669</plan_id>
+        <snapshot>b4363a9d938e4b501aa3f18ddd03d63f</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 09:14:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0feee11938e4b501aa3f18ddd03d624</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 09:45:34</sys_updated_on>
+        <trigger display_value="">f106b29d938e4b501aa3f18ddd03d6ca</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e19aa295934e4b501aa3f18ddd03d669"/>
+</record_update>

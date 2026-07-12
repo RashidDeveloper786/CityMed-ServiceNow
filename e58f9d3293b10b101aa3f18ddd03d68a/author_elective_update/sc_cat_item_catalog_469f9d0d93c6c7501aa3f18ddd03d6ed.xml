@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Report Equipment Fault">5c7f590d93c6c7501aa3f18ddd03d68c</sc_cat_item>
+        <sc_catalog display_value="CityMed IT Self Service Portal">b62e34019306c7501aa3f18ddd03d6e0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 08:49:27</sys_created_on>
+        <sys_id>469f9d0d93c6c7501aa3f18ddd03d6ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CityMed IT Self Service Portal.Report Equipment Fault</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_469f9d0d93c6c7501aa3f18ddd03d6ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 08:49:27</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</application>
+        <file_path/>
+        <instance_id>5938182a3b18cb54986d048aa4e45a90</instance_id>
+        <instance_name>dev385960</instance_name>
+        <name>sc_cat_item_catalog_469f9d0d93c6c7501aa3f18ddd03d6ed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report Equipment Fault">5c7f590d93c6c7501aa3f18ddd03d68c</sc_cat_item><sc_catalog display_value="CityMed IT Self Service Portal">b62e34019306c7501aa3f18ddd03d6e0</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-11 08:49:27</sys_created_on><sys_id>469f9d0d93c6c7501aa3f18ddd03d6ed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CityMed IT Self Service Portal.Report Equipment Fault</sys_name><sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package><sys_policy/><sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope><sys_update_name>sc_cat_item_catalog_469f9d0d93c6c7501aa3f18ddd03d6ed</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-11 08:49:27</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>923672069</payload_hash>
+        <record_name>CityMed IT Self Service Portal.Report Equipment Fault</record_name>
+        <reverted_from/>
+        <source>34614ef693750b101aa3f18ddd03d621</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 08:49:28</sys_created_on>
+        <sys_id>969fd14d93c6c7501aa3f18ddd03d65e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f505e09ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 08:49:28</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>569fd14d80c6c7504f23690a94e4265d</update_guid>
+        <update_guid_history>569fd14d80c6c7504f23690a94e4265d:923672069</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CityMed IT Self Service Portal.Report Equipment Fault">58fde95193864b501aa3f18ddd03d625</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 04:30:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>19e0cbb6b3014b48941c0e30fd0a6924</sys_id>
+        <sys_metadata>469f9d0d93c6c7501aa3f18ddd03d6ed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CityMed IT Self Service Portal.Report Equipment Fault</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_parent display_value="">5c7f590d93c6c7501aa3f18ddd03d68c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_scope_delete display_value="">51d0471f1eb04a00a890bb213e85c400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_469f9d0d93c6c7501aa3f18ddd03d6ed</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_469f9d0d93c6c7501aa3f18ddd03d6ed">969fd14d93c6c7501aa3f18ddd03d65e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 04:30:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

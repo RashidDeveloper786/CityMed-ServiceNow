@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_2057380_cityme_0_equipment_fault</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 12pt;">Hello,</span></p>
+<p><span style="font-size: 12pt;">Your equipment fault ${number} has been resolved.</span></p>
+<p><span style="font-size: 12pt;">Resolution Details:</span></p>
+<p><span style="font-size: 12pt;">${resolution_notes}</span></p>
+<p><span style="font-size: 12pt;">Regards,</span><br><span style="font-size: 12pt;">CityMed IT</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>CityMed Resolution Notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>reported_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Equipment Fault Resolved</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 12:33:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>98abdbd593c28b501aa3f18ddd03d6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CityMed Resolution Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sysevent_email_action_98abdbd593c28b501aa3f18ddd03d6a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 12:33:09</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</application>
+        <file_path/>
+        <instance_id>5938182a3b18cb54986d048aa4e45a90</instance_id>
+        <instance_name>dev385960</instance_name>
+        <name>sysevent_email_action_98abdbd593c28b501aa3f18ddd03d6a0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;&lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;affected_field_on_event/&gt;&lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;&lt;collection&gt;x_2057380_cityme_0_equipment_fault&lt;/collection&gt;&lt;condition/&gt;&lt;content_type&gt;text/html&lt;/content_type&gt;&lt;default_digest&gt;false&lt;/default_digest&gt;&lt;default_interval/&gt;&lt;description/&gt;&lt;digest_from/&gt;&lt;digest_html/&gt;&lt;digest_reply_to/&gt;&lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;&lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;&lt;digest_subject/&gt;&lt;digest_template/&gt;&lt;digest_text/&gt;&lt;digest_type&gt;single&lt;/digest_type&gt;&lt;digestable&gt;false&lt;/digestable&gt;&lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;&lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;&lt;force_delivery&gt;false&lt;/force_delivery&gt;&lt;from/&gt;&lt;generation_type&gt;engine&lt;/generation_type&gt;&lt;importance/&gt;&lt;include_attachments&gt;false&lt;/include_attachments&gt;&lt;item&gt;event.parm1&lt;/item&gt;&lt;item_table/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Hello,&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Your equipment fault ${number} has been resolved.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Resolution Details:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;${resolution_notes}&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 12pt;"&gt;Regards,&lt;/span&gt;&lt;br&gt;&lt;span style="font-size: 12pt;"&gt;CityMed IT&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;CityMed Resolution Notification&lt;/name&gt;&lt;omit_watermark&gt;false&lt;/omit_watermark&gt;&lt;order&gt;100&lt;/order&gt;&lt;push_message_only&gt;false&lt;/push_message_only&gt;&lt;recipient_fields&gt;reported_by&lt;/recipient_fields&gt;&lt;recipient_groups/&gt;&lt;recipient_users/&gt;&lt;reply_to/&gt;&lt;send_self&gt;true&lt;/send_self&gt;&lt;sms_alternate/&gt;&lt;style/&gt;&lt;subject&gt;Equipment Fault Resolved&lt;/subject&gt;&lt;subscribable&gt;false&lt;/subscribable&gt;&lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-07-12 12:33:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;98abdbd593c28b501aa3f18ddd03d6a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CityMed Resolution Notification&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CityMed Project" source="x_2057380_cityme_0"&gt;e58f9d3293b10b101aa3f18ddd03d68a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CityMed Project"&gt;e58f9d3293b10b101aa3f18ddd03d68a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_action_98abdbd593c28b501aa3f18ddd03d6a0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-07-12 12:33:09&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;&lt;type&gt;email&lt;/type&gt;&lt;weight&gt;0&lt;/weight&gt;&lt;/sysevent_email_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1076553650</payload_hash>
+        <record_name>CityMed Resolution Notification</record_name>
+        <reverted_from/>
+        <source>34614ef693750b101aa3f18ddd03d621</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 12:33:10</sys_created_on>
+        <sys_id>c56c535993c28b501aa3f18ddd03d61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f565135820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 12:33:10</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>b46c5359c3c28b506d6d54d225355a1a</update_guid>
+        <update_guid_history>b46c5359c3c28b506d6d54d225355a1a:-1076553650</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 12:53:44</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>2a6a1811ff2d47a29c340999cf8191b9</sys_id>
+        <sys_metadata>98abdbd593c28b501aa3f18ddd03d6a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CityMed Resolution Notification</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_parent display_value="Equipment Fault">97a131be93f10b101aa3f18ddd03d64d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_scope_delete display_value="">51d0471f1eb04a00a890bb213e85c400</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_98abdbd593c28b501aa3f18ddd03d6a0</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_98abdbd593c28b501aa3f18ddd03d6a0">c56c535993c28b501aa3f18ddd03d61b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 12:53:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

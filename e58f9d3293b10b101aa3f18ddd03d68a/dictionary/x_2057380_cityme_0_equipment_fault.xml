@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="97a131be93f10b101aa3f18ddd03d64d" extends="task" label="Equipment Fault" max_length="40" name="x_2057380_cityme_0_equipment_fault" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>
+        <element label="Rejected Reason" max_length="50" name="rejected_reason" type="string"/>
         <element label="Fault Description" max_length="100" name="fault_description" type="string"/>
         <element label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
         <element choice="3" label="Ward" max_length="40" name="ward" type="choice">
@@ -17,6 +18,6 @@
         <element attributes="edge_encryption_enabled=true" label="Resolved At" max_length="40" name="resolved_at" type="glide_date_time"/>
         <element label="Life Critical Equipmennt" max_length="255" name="life_critical_equipmennt" type="boolean"/>
         <element label="Fault Detected On" max_length="40" name="fault_detected_on" type="glide_date_time"/>
-        <element label="Equipment ID" mandatory="true" max_length="20" name="equipment_id" type="string"/>
+        <element default="EQ-" label="Equipment ID" mandatory="true" max_length="20" name="equipment_id" type="string"/>
     </element>
 </database>

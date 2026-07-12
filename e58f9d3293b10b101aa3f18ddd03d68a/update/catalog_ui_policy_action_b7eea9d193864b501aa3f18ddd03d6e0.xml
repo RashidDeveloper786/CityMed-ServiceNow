@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Report Equipment Fault">046f690d934ac7501aa3f18ddd03d617</catalog_item>
+        <catalog_variable>IO:ddf4cec5930ec7501aa3f18ddd03d6d4</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 04:35:12</sys_created_on>
+        <sys_id>b7eea9d193864b501aa3f18ddd03d6e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>fault_description</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b7eea9d193864b501aa3f18ddd03d6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 04:35:46</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Is Life Critical True set Ward Mandatory">642ea19193864b501aa3f18ddd03d675</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>fault_description</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7eea9d193864b501aa3f18ddd03d6e0"/>
+</record_update>

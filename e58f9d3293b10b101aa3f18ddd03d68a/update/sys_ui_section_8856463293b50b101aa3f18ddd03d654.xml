@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Fault Details" section_id="8856463293b50b101aa3f18ddd03d654" sys_domain="global" table="x_2057380_cityme_0_equipment_fault" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>equipment_id</element>
+            <element>reported_by</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 12:11:58</sys_created_on>
-            <sys_id>78fd0e49934ec7501aa3f18ddd03d6e5</sys_id>
+            <sys_created_on>2026-07-12 13:03:34</sys_created_on>
+            <sys_id>de532f9593068b501aa3f18ddd03d69d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 12:11:58</sys_updated_on>
+            <sys_updated_on>2026-07-12 13:03:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>equipment_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 13:03:34</sys_created_on>
+            <sys_id>96532f9593068b501aa3f18ddd03d69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 13:03:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ward</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
-            <sys_id>f4fd0e49934ec7501aa3f18ddd03d6e6</sys_id>
+            <sys_created_on>2026-07-12 13:03:34</sys_created_on>
+            <sys_id>16532f9593068b501aa3f18ddd03d6a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
+            <sys_updated_on>2026-07-12 13:03:34</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>life_critical_equipmennt</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
-            <sys_id>74fd0e49934ec7501aa3f18ddd03d6e7</sys_id>
+            <sys_created_on>2026-07-12 13:03:35</sys_created_on>
+            <sys_id>92532f9593068b501aa3f18ddd03d6a1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
+            <sys_updated_on>2026-07-12 13:03:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>fault_description</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
-            <sys_id>f0fd0e49934ec7501aa3f18ddd03d6e8</sys_id>
+            <sys_created_on>2026-07-12 13:03:35</sys_created_on>
+            <sys_id>22532f9593068b501aa3f18ddd03d6a2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
+            <sys_updated_on>2026-07-12 13:03:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>fault_detected_on</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 12:11:59</sys_created_on>
-            <sys_id>41fd0e49934ec7501aa3f18ddd03d6e9</sys_id>
+            <sys_created_on>2026-07-12 13:03:35</sys_created_on>
+            <sys_id>a6536f9593068b501aa3f18ddd03d606</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Fault Details" display_value="Fault Details" name="x_2057380_cityme_0_equipment_fault" sys_domain="global" view="Default view">8856463293b50b101aa3f18ddd03d654</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 12:11:59</sys_updated_on>
+            <sys_updated_on>2026-07-12 13:03:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
