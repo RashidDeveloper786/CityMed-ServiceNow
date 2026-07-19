@@ -3,7 +3,7 @@
         <element attributes="edge_encryption_enabled=true" label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>
         <element label="Rejected Reason" max_length="50" name="rejected_reason" type="string"/>
         <element label="Fault Description" max_length="100" name="fault_description" type="string"/>
-        <element label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Reported By" max_length="32" name="reported_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="3" label="Ward" max_length="40" name="ward" type="choice">
             <choice>
                 <element inactive_on_update="false" label="ICU" sequence="0" value="icu"/>

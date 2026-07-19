@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_portal_extensible_navigation_item">
+    <sn_ex_sp_portal_extensible_navigation_item action="DELETE">
+        <active>true</active>
+        <browse_button>false</browse_button>
+        <browse_button_text>Browse Home</browse_button_text>
+        <menu display_value="Home">cbb93061c808f250f877a26e23717531</menu>
+        <menu_icon>empty</menu_icon>
+        <menu_title>Home</menu_title>
+        <navigation_item_type>menu</navigation_item_type>
+        <order>99999</order>
+        <parent_item display_value="CityMed IT Self-Service Portal">7c3a319993c64b501aa3f18ddd03d636</parent_item>
+        <portal_extensible_navigation display_value="Employee center side navigation">fad20781c8087250f877a26e2371759b</portal_extensible_navigation>
+        <position>left</position>
+        <render_as>menu</render_as>
+        <submenu_type>standard</submenu_type>
+        <sys_class_name>sn_ex_sp_portal_extensible_navigation_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 06:22:24</sys_created_on>
+        <sys_id>0b670a95934a4b501aa3f18ddd03d643</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sn_ex_sp_portal_extensible_navigation_item_0b670a95934a4b501aa3f18ddd03d643</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 06:22:24</sys_updated_on>
+        <topic/>
+        <widget/>
+        <widget_parameters/>
+    </sn_ex_sp_portal_extensible_navigation_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</application>
+        <file_path/>
+        <instance_id>5938182a3b18cb54986d048aa4e45a90</instance_id>
+        <instance_name>dev385960</instance_name>
+        <name>sn_ex_sp_portal_extensible_navigation_item_0b670a95934a4b501aa3f18ddd03d643</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_portal_extensible_navigation_item"><sn_ex_sp_portal_extensible_navigation_item action="INSERT_OR_UPDATE"><active>true</active><browse_button>false</browse_button><browse_button_text>Browse Home</browse_button_text><menu display_value="Home">cbb93061c808f250f877a26e23717531</menu><menu_icon>empty</menu_icon><menu_title>Home</menu_title><navigation_item_type>menu</navigation_item_type><order>99999</order><parent_item display_value="CityMed IT Self-Service Portal">7c3a319993c64b501aa3f18ddd03d636</parent_item><portal_extensible_navigation display_value="Employee center side navigation">fad20781c8087250f877a26e2371759b</portal_extensible_navigation><position>left</position><render_as>menu</render_as><submenu_type>standard</submenu_type><sys_class_name>sn_ex_sp_portal_extensible_navigation_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-12 06:22:24</sys_created_on><sys_id>0b670a95934a4b501aa3f18ddd03d643</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Home</sys_name><sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package><sys_policy/><sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope><sys_update_name>sn_ex_sp_portal_extensible_navigation_item_0b670a95934a4b501aa3f18ddd03d643</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-12 06:22:24</sys_updated_on><topic/><widget/><widget_parameters/></sn_ex_sp_portal_extensible_navigation_item></record_update>]]></payload>
+        <payload_hash>727735124</payload_hash>
+        <record_name>Home</record_name>
+        <reverted_from/>
+        <source>34614ef693750b101aa3f18ddd03d621</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 06:22:26</sys_created_on>
+        <sys_id>d6874e95934a4b501aa3f18ddd03d611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f54fdcbb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 06:22:26</sys_updated_on>
+        <type>Navigation menu item</type>
+        <update_guid>96874e95784a4b50a7b63bae2a5f0010</update_guid>
+        <update_guid_history>96874e95784a4b50a7b63bae2a5f0010:727735124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Home">e1772e91934e4b501aa3f18ddd03d6f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 08:41:56</sys_created_on>
+        <sys_db_object display_value="" name="sn_ex_sp_portal_extensible_navigation_item">sn_ex_sp_portal_extensible_navigation_item</sys_db_object>
+        <sys_id>1d9f76d1ff024152855b5cbcdde722e4</sys_id>
+        <sys_metadata>0b670a95934a4b501aa3f18ddd03d643</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_scope_delete display_value="">51d0471f1eb04a00a890bb213e85c400</sys_scope_delete>
+        <sys_update_name>sn_ex_sp_portal_extensible_navigation_item_0b670a95934a4b501aa3f18ddd03d643</sys_update_name>
+        <sys_update_version display_value="sn_ex_sp_portal_extensible_navigation_item_0b670a95934a4b501aa3f18ddd03d643">d6874e95934a4b501aa3f18ddd03d611</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 08:41:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
