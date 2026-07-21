@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_2057380_cityme_0_equipment_fault</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 10pt;">&lt;div style="border:3px solid red;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; padding:15px;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; background:#fff5f5;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; font-family:Arial;"&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;h2 style="color:red;"&gt;</span><br><span style="font-size: 10pt;">]]>🚨<![CDATA[ CityMed P1 Equipment Fault Alert</span><br><span style="font-size: 10pt;">&lt;/h2&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;p&gt;</span><br><span style="font-size: 10pt;">A &lt;b&gt;Priority 1&lt;/b&gt; equipment fault has been reported and requires immediate attention.</span><br><span style="font-size: 10pt;">&lt;/p&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;"&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;tr&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;th align="left"&gt;Fault Number&lt;/th&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;td&gt;${number}&lt;/td&gt;</span><br><span style="font-size: 10pt;">&lt;/tr&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;tr&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;th align="left"&gt;Priority&lt;/th&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;td&gt;${priority}&lt;/td&gt;</span><br><span style="font-size: 10pt;">&lt;/tr&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;tr&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;th align="left"&gt;Assignment Group&lt;/th&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;td&gt;${assignment_group}&lt;/td&gt;</span><br><span style="font-size: 10pt;">&lt;/tr&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;tr&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;th align="left"&gt;Short Description&lt;/th&gt;</span><br><span style="font-size: 10pt;">&nbsp; &nbsp; &lt;td&gt;${short_description}&lt;/td&gt;</span><br><span style="font-size: 10pt;">&lt;/tr&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;/table&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;br&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;b&gt;Please acknowledge this fault immediately according to the P1 SLA.&lt;/b&gt;</span></p>
+<p><span style="font-size: 10pt;">&lt;br&gt;&lt;br&gt;</span></p>
+<p><span style="font-size: 10pt;">Thanks,&lt;br&gt;</span><br><span style="font-size: 10pt;">CityMed IT Support</span></p>
+<p><span style="font-size: 10pt;">&lt;/div&gt;</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>CityMed P1 Alert Template</name>
+        <sms_alternate/>
+        <subject>P1 Equipment Fault Alert - ${number}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-19 12:12:53</sys_created_on>
+        <sys_id>386adbe793ca0f101aa3f18ddd03d6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CityMed P1 Alert Template</sys_name>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sysevent_email_template_386adbe793ca0f101aa3f18ddd03d6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-19 12:12:53</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

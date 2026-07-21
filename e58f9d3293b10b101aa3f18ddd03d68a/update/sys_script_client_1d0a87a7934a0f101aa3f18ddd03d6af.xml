@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When priority changes to P1 then show an error msg.</description>
+        <field>priority</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CityMed - P1 Priority Warning</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    // console.log("Priority changed from " + oldValue + " to " + newValue);
+
+    if (newValue == '1') {
+
+        g_form.addErrorMessage(
+            'P1 SLA: Acknowledge within 15 minutes. Verify Assignment Group is correct.'
+        );
+
+        g_form.setMandatory('assignment_group', true);
+    } else {
+
+        g_form.setMandatory('assignment_group', false);
+    }
+
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-19 11:05:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1d0a87a7934a0f101aa3f18ddd03d6af</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CityMed - P1 Priority Warning</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CityMed Project" source="x_2057380_cityme_0">e58f9d3293b10b101aa3f18ddd03d68a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CityMed Project">e58f9d3293b10b101aa3f18ddd03d68a</sys_scope>
+        <sys_update_name>sys_script_client_1d0a87a7934a0f101aa3f18ddd03d6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-19 11:41:52</sys_updated_on>
+        <table>x_2057380_cityme_0_equipment_fault</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
